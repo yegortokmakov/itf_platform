@@ -18,3 +18,6 @@ dist
 /.project
 /RUNNING_PID
 /.settings
+
+.vagrant/*
+.DS_Store

@@ -5,6 +5,10 @@
 # Home page
 GET        /                       controllers.Application.index
 
+# Main menu
+GET        /blog                   controllers.Application.blog
+
+
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file           controllers.Assets.at(path="/public", file)
 
