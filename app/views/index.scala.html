@@ -1,6 +1,11 @@
-@(message: String, redirectUrl: String)(implicit flash: Flash)
+@(message: String, redirectUrl: String, caption: String, content: String)(implicit flash: Flash)
 
 @main("Welcome to Play") {
     <h2>Not Yet Authenticated</h2>
     <a href="@redirectUrl"><em><b>Log in with GITHUB!</b></em></a>
+
+    <br /><br /><br />
+
+    <h1>@caption</h1>
+    <p>@content</p>
 }
